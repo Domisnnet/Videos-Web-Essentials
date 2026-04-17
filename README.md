@@ -1,10 +1,15 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/Videos-Web-Essentials?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Videos-Web-Essentials?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Videos-Web-Essentials?style=for-the-badge)
+
+
 <h2 id="sobre-o-projeto">1. 🎥 Reprodutor de Vídeos Multi-formato 🎥</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS-blueviolet)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/exercicio-videos/blob/main/LICENSE)
 
-![Demonstração do Projeto](src/imagens/iMac-24-1120x630.png)
+![Vídeos](src/imagens/videos.png)
 
 Bem-vindo ao projeto **Exercício Vídeos**! Este repositório é um estudo prático sobre a implementação de mídias audiovisuais na web. Ele demonstra a versatilidade do HTML5 para lidar com vídeos hospedados localmente em múltiplos formatos para garantir compatibilidade, além da integração fluida de players externos como o YouTube.
 
@@ -15,7 +20,7 @@ Bem-vindo ao projeto **Exercício Vídeos**! Este repositório é um estudo prá
 | 🎥 O Projeto | 🛠️ Técnico | 🤝 Comunidade |
 | :---: | :---: | :---: |
 | [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Destaques](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#destaques-tecnicos) | [![9. Código](https://img.shields.io/badge/9%20-%20Código-795548)](#codigo-fonte) |
-| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Repositório](https://img.shields.io/badge/6%20-%20Repo-009688)](#codigo-fonte) | [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#créditos) |
+| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Instalação](https://img.shields.io/badge/6%20-%20Instala%C3%A7%C3%A3o-009688)](#instalacao) | [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#créditos) |
 | [![3. Acessar](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#como-acessar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) | [![11. Licença](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#licenca) |
 | [![4. Funções](https://img.shields.io/badge/4%20-%20Funções-9C27B0)](#funcionalidades) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) | [![12. Perfil](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
 
@@ -36,7 +41,7 @@ Bem-vindo ao projeto **Exercício Vídeos**! Este repositório é um estudo prá
 Clique no botão abaixo para visualizar o reprodutor de vídeos em funcionamento:
 
 <div align="left">
-  <a href="https://domisnnet.github.io/exercicio-videos/" target="_blank">
+  <a href="https://domisnnet.github.io/Videos-Web-Essentials/" target="_blank">
     <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
   </a>
 </div>
@@ -69,11 +74,17 @@ Configuração de parâmetros de URL no YouTube (`autoplay`, `loop`, `controls`)
 
 ---
 
-<h2 id="codigo-fonte">6. 📂 Repositório</h2>
+<h2 id="instalacao">6. 🚀 Instalação e Configuração Local</h2>
 
 Deseja analisar a estrutura de mídia ou clonar o projeto? Explore o repositório oficial:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2Fexercicio--videos-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/exercicio-videos)
+```bash
+# Clonar o repositório
+git clone https://github.com/Domisnnet/Videos-Web-Essentials.git(https://github.com/Domisnnet/Videos-Web-Essentials.git)
+
+# Acessar a pasta
+cd Videos-Web-Essentials
+```
 
 ---
 
@@ -83,11 +94,17 @@ Siga os passos abaixo para fortalecer este projeto:
 
 | Fase | Ação | Link / Comando |
 | :---: | :--- | :--- |
-| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/exercicio-videos/fork) |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Videos-Web-Essentials/fork) |
 | **02** | **Branch** | `git checkout -b feature/NovoPlayer` |
 | **03** | **Commit** | `git commit -m 'feat: adição de suporte a legendas VTT'` |
 | **04** | **Push** | `git push origin feature/NovoPlayer` |
-| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/exercicio-videos/compare) |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Videos-Web-Essentials/compare)
+
+### 🐛 Encontrou um problema?
+Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
+
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/Videos?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Videos-Web-Essentials/issues)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Videos-Web-Essentials/issues/new)
 
 ---
 
@@ -114,7 +131,7 @@ Siga os passos abaixo para fortalecer este projeto:
 
 Explore a estrutura de arquivos e mídias diretamente:
 
-[![Código](https://img.shields.io/badge/Código%20Fonte-Acessar-795548?style=for-the-badge&logo=github)](https://github.com/Domisnnet/exercicio-videos/tree/main)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FVideos--Web--Essentials-blue?style=for-the-badge&logo=github&labelColor=0d1117)](https://domisnnet.github.io/Videos-Web-Essentials/)
 
 ---
 
@@ -136,10 +153,12 @@ O projeto de vídeos é fruto de estudos sobre multimídia na web:
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/exercicio-videos/blob/main/LICENSE)
+Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Videos-Web-Essentials/blob/main/LICENSE)
 
 ---
 
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> 
+  <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> 
+</a>
