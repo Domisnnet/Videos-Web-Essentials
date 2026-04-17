@@ -1,45 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Exemplos de inserção de vídeos HTML5 locais e do YouTube" />
     <title>Exercício Vídeos</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="src/css/estilo.css" />
 </head>
 
 <body>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+    <main>
+        <section class="video-container">
+            <article class="video-section">
                 <h1>Inserindo vídeos hospedados Localmente</h1>
                 <p>Este vídeo está hospedado no meu próprio servidor:</p>
-                <video class="borda" width="560"poster="imagem/limoes-capa.png" controls autoplay loop>
-                    <source src="midia/meu-video1.mp4"type="video/mp4">
-                    <source src="midia/meu-video.m4v" type="video/m4v">
-                    <source src="midia/meu-video.webm" type="video/webm">
-                    <source src="midia/meu-video.ogv" type="video/ogv">
+                <video class="borda" poster="src/imagens/limoes-capa.png" controls autoplay loop>
+                    <source src="src/midia/meu-video1.mp4" type="video/mp4" />
+                    <source src="src/midia/meu-video.m4v" type="video/m4v" />
+                    <source src="src/midia/meu-video.webm" type="video/webm" />
+                    <source src="src/midia/meu-video.ogv" type="video/ogv" />
                     <p>Seu Navegador não tem compatibilidade com reprodução de vídeo</p>
                 </video>
-            </div>
-        </div>
-    </div>
+            </article>
+        </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <section class="video-container">
+            <article class="video-section">
                 <h1>Inserindo vídeos do YouTube</h1>
                 <p>Inserindo vídeo hospedado no próprio YouTube:</p>
-                <iframe class="borda" width="560" height="315" 
-                    src="https://www.youtube-nocookie.com/embed/QSivvdIyeG4?si=ugwZJJ3P05Gwhjn0&controls=0&start=0&autoplay=1&loop=1" 
-                    title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-    </div>
-
+                <div class="iframe-wrapper">
+                    <iframe class="borda"
+                        src="https://www.youtube-nocookie.com/embed/QSivvdIyeG4?si=ugwZJJ3P05Gwhjn0&controls=0&start=0&autoplay=1&loop=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
